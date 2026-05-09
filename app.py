@@ -12,7 +12,7 @@ import os
 # Agrega la carpeta 'interfaz' al path para que los imports funcionen
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "interfaz"))
 
-from gui import AppFito
+from interfaz.gui import AppFito
 
 if __name__ == "__main__":
     app = AppFito()
